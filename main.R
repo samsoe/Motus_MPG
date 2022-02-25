@@ -2,7 +2,7 @@
 Sys.setenv(TZ = "UTC")
 
 # Include addition R scripts
-source("basic_update.R")
+source("update.R")
 
 # Identify packages to use
 packages <- c("motus","lubridate","maps","tidyverse","rworldmap","ggmap","DBI", "RSQLite", "rlang", "bigrquery")
