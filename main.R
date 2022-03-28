@@ -33,5 +33,5 @@ bigquery_authenticate()
 bq_ds <- bq_dataset("motus-mpg", "project_450")
 bq_tbl <- bq_table(bq_ds, "alltags_main")
 
-# Push data.frame
+# Push data.frame to BigQuery
 bq_table_upload(bq_tbl, df_update, create_disposition='CREATE_IF_NEEDED', write_disposition='WRITE_APPEND')
