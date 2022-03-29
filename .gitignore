@@ -45,3 +45,7 @@ vignettes/*.pdf
 # Key
 *.json
 
+# Log Files
+*.log
+
+scheduler.R
